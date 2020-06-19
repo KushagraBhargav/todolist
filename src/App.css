@@ -1,0 +1,152 @@
+* {
+  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+
+}
+.main_div{
+  
+  background-color: cadetblue;
+  
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  
+  height: 100vh; 
+  text-align: center;
+  position: relative;
+
+}
+.center_div{
+  background-color: aliceblue;
+  width: 50%;
+  height: 60vh;
+  border: 10px solid aliceblue;
+  border-radius: 20px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  
+  
+  margin-top: 15%;
+
+  
+}
+
+.center_div h1{
+  background-color: blueviolet;
+  color: white;
+  padding: 3px;
+  width: 100%;
+  ;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+.center_div button{
+  min-height: 40px;
+  width: 40px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+  padding: 10px;
+  color: white;
+  border-color: transparent;
+  background-color: darkorchid;
+  font-size: larger;
+  font-weight: bold;
+  outline: none;
+  border-radius: 50%;
+  margin: 20px 0px 0px 20px;
+  
+}
+
+
+ input{
+  
+  text-align: center;
+  height: 30px;
+  outline: none;
+  top: 10px;  
+  font-size: 20px;
+  border: none;
+  width: 60%;
+  border-bottom: 3px solid pink;
+  background: transparent;
+  
+  
+}
+
+.center_div input:hover{
+  transform: scale(1.09,1.09);
+}
+
+.center_div button:hover{
+  background-color: #20bf6b;
+  transform: scale(1.09,1.09);
+}
+
+ol{
+  margin-top: 30px;
+}
+
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  color: #8566aa;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.todo_style{
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.todo_style .fa-times{
+  width: 20px;
+  height:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+  background-color: #8566aa;
+}
+.todo_style .fa-times:hover{
+background-color: red;
+
+}
+
+.todo_style .fa-times:hover .list_style{
+  color: red;
+
+}
+
+@media (max-width: 768px){
+  .center_div{
+    width: 55%;
+  }
+}
+
+.dark *{
+  background-color: black;
+  color: aliceblue;
+}
+
+
+
+
+.btn{
+  
+  
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+  
+  
+}

@@ -1,0 +1,16 @@
+.timer h1{
+    color: azure;
+    background-color: cadetblue;
+}
+.timer p{
+    color: azure;
+    background-color: cadetblue;
+}
+.timer{
+    
+    text-align: right;
+    padding: 15px;
+    background-color: cadetblue;
+
+}
+
